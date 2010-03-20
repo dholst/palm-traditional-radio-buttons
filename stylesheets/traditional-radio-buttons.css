@@ -1,0 +1,23 @@
+.radio-button-wrapper {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.radio-button-wrapper .radio-button-image {
+  width: 33px;
+  height: 27px;
+  float: left;
+  background: url(../images/checkbox.png) top no-repeat;
+}
+
+.radio-button-wrapper.selected .radio-button-image {
+  background: url(../images/checkbox.png) bottom no-repeat;
+}
+
+.radio-button-wrapper .radio-button-label {
+}
+
+.clear {
+  clear: both;
+}
+
